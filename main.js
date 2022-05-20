@@ -1,7 +1,7 @@
 let userName = 'Ryan';
 userName ? console.log('Hello, ' + userName + '!') : console.log('Hello!'); // print custom greeting if userName evaluates to true
 
-const userQuestion = "Who will win the NBA title?";
+const userQuestion = "Will Denver win the NBA title?";
 console.log(userName + ' asked: ' + userQuestion); // prints any user question
 
 const randomNumber = Math.floor(Math.random() * 8); // generates random number between 0 and 7
